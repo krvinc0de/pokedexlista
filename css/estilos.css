@@ -123,22 +123,24 @@ body {
 }
 
 .lista {
-  background-color: var(--dark-cyan);
+  background-color: white;
   margin-right: 100px;
   padding: 30px;
   border-radius: 20px;
   border: 1px solid whitesmoke;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 .ttabla {
   font-size: 20px;
   font-style: italic;
-  color: white;
+  color: var(--very-dark);
 }
 
 .pokemin {
-  font-size: 12px;
-  font-style: inherit;
-  color: white;
+  font-size: 1.2rem;
+  color: var(--dark-grey);
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=estilos.css.map */
